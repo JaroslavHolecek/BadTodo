@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <title>BadTodo</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <a class="brand" href="#/">BadTodo</a>
+    <nav class="main-nav" aria-label="Hlavní navigace">
+      <a href="#/">Úvod</a>
+      <a href="#/contexts">Kontexty</a>
+      <a href="#/settings">Nastavení</a>
+      <a href="#/about">Info</a>
+    </nav>
+  </header>
+  <main id="app" class="app-shell" tabindex="-1"></main>
+  <div id="modal-root" class="modal-root" aria-live="polite"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
